@@ -1,1 +1,23 @@
 // Mixins in here
+
+.btn-design(@width, @height, @padding, @border-radius, @font-size){
+background-color: @button-bg;
+color: @white;
+width:@width;
+height:@height;
+padding:@padding;
+border-radius: @border-radius;
+font-size:@font-size;
+}
+
+.mobile(){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.mobile-width(){
+    width: 100%;
+    padding:0%;
+}
